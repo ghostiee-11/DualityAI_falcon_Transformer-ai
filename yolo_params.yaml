@@ -1,0 +1,12 @@
+train: train/images
+val: test/images
+test: test/images
+nc: 3
+names:
+- FireExtinguisher
+- ToolBox
+- OxygenTank
+path: /kaggle/working/data_augmented
+imgsz: 640
+batch: 16
+epochs: 75
